@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+background: rgb(208, 221, 221);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+font-family: 'DM Serif Display', serif;
+margin: 10px 20px;
+font-size: 15px;
+padding: 8px;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 1px 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_side
+{
+position: relative;
+background: rgba(114, 103, 93, 0.783);
+padding: 20px;
+
+}
+.profileText
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 5px;
+border-bottom: 1px solid rgba(185, 187, 190, 0.669);
+}
+.profileText .imgBx
+{
+position: relative;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+overflow:hidden;
+}
+.profileText .imgBx Vidhi photo
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.profileText h2
+{
+color: aliceblue;
+font-size: 1.3em;
+margin-top: 20px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-style: inherit;
+text-align: center;
+font-weight:200;
+line-height: 1.2em;
+font-family: 'DM Serif Display', serif;
+}
+.contactInfo
+{
+padding: 0.2px;
+margin-top: 17px;
+border-bottom: 1px solid rgba(185, 187, 190, 0.669);
+}
+.title
+{
+color: rgb(241, 244, 247);
+text-transform:uppercase;
+font-weight: 100;
+letter-spacing: 0.1px;
+margin-bottom: 20px;
+font-family: 'Quicksand', sans-serif;
+
+}
+.contactInfo
+{
+position: relative;
+}
+.contactInfo li
+{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+letter-spacing:o.9px;
+}
+.contactInfo li .icon
+{
+display: inline-block;
+width: 30;
+font-size: 18px;
+color: rgb(224, 230, 230);
+}
+.contactInfo li span
+{
+color:rgb(206, 200, 184);
+font-weight: 90;
+}
+.contactInfo.education li
+{
+margin-bottom: 15px;
+}
+.contactInfo.education h5
+{
+color: rgb(249, 249, 245);
+font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2)
+{
+color: rgb(219, 220, 211);
+font-weight: 500;
+margin-bottom: 1px;
+margin-top: 1px;
+}
+.contactInfo.education h4
+{
+color:aliceblue;
+font-weight: 400;
+}
+.container .right_side
+{
+position: relative;
+background: rgba(243, 240, 240, 0.669);
+padding: 40px;
+}
+.about
+{
+margin-bottom: 50px;
+}
+.about:last-child
+{
+margin-bottom: 0;
+}
+.title2
+{
+color:rgb(67, 63, 54);
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 10px;
+font-family: 'DM Serif Display', serif;
+}
+p
+{
+color: rgb(73, 64, 64);
+font-family: 'Quicksand', sans-serif;
+}
+.about li{
+    font-family: 'Quicksand', sans-serif;
+}
+
